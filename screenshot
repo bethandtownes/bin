@@ -1,0 +1,3 @@
+#!/usr/bin/zsh
+
+flameshot gui -p $HOME/screen-shot/

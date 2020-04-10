@@ -1,0 +1,31 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Tue Aug 20 02:31:36 2019
+;; Desktop file format version 208
+;; Emacs version 26.2
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (23899 37832 625907 363000) (desktop . "208") "jasonsun0310@arch-js" nil nil ((((minibuffer . t) (tty-type . "linux") (tty . "/dev/tty") (display-type . color) (background-mode . dark) (foreground-color . "unspecified-fg") (cursor-color . "white") (menu-bar-lines . 0) (vertical-scroll-bars) (tool-bar-lines . 0) (powerline-cache) (background-color . "unspecified-bg") (font . "tty") (height . 56) (width . 180) (modeline . t) (unsplittable) (frameset--id . "D3E8-B524-4448-EC04") (frameset--mini t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 180) (pixel-height . 55) (total-width . 180) (total-height . 55) (normal-height . 1.0) (normal-width . 1.0) (buffer "ddspawn" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 665) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/home/jasonsun0310/.local/bin/"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/jasonsun0310/.local/bin/ddspawn"
+  "ddspawn"
+  'sh-mode
+  '(override-global-mode projectile-mode ivy-mode flycheck-mode company-mode)
+  665
+  '(625 nil)
+  nil
+  nil
+  '((buffer-display-time 23899 37826 123412 541000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (520))))
+

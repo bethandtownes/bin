@@ -1,0 +1,7 @@
+#!/bin/bash
+
+python3 preprocessing.py $1
+file=$1
+trimed=$(echo $1 | cut -d '/' -f 2)
+/opt/local/libexec/llvm-8.0/bin/clang-format -i ./submission/$trimed -style=file
+leetcode submit ./submission/$trimed

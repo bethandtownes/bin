@@ -1,0 +1,4 @@
+#!/bin/bash
+gcc $1 -lstdc++ -lm  -std=c++17 -o /home/jasonsun0310/leetcode-practice/build/main.o
+
+

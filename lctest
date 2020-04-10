@@ -1,0 +1,7 @@
+#!/bin/bash
+# python3 /home/jasonsun0310/leetcode-practice/preprocessing.py $(basename $1)
+# trimed=$(basename $1)
+# # clang-format -i /home/jasonsun0310/leetcode-practice/submission/$trimed -style=file
+# leetcode test /home/jasonsun0310/leetcode-practice/submission/$trimed
+
+python /home/jasonsun0310/projects/just-the-docs/assets/code/leetcode.py -t $1
